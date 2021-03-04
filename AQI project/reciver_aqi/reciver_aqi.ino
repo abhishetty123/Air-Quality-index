@@ -6,7 +6,7 @@
 *///--------------Electronics-project-hub-------------//
 #include "ThingSpeak.h"
 #include <ESP8266WiFi.h>
-const char ssid[] = "shettynet";  // your network SSID (name)
+const char ssid[] = "Your_Wifi_Name";  // your network SSID (name)
 const char pass[] = "password";   // your network password
 WiFiClient  client;
 // Set web server port number to 80
@@ -16,11 +16,11 @@ WiFiServer server(80);
 String header;
 
 //---------Channel Details---------//
-unsigned long counterChannelNumber = 1247965;            // Channel ID
-const char * myCounterReadAPIKey = "7S33T60X5GHZLMVB";   // Read API Key
+unsigned long counterChannelNumber = ******;            // Channel ID
+const char * myCounterReadAPIKey = " ********** ;   // Read API Key
 
-unsigned long counterChannelNumber1 = 1248559;            // Channel ID
-const char * myCounterReadAPIKey1 = "4LY3QQSTDGHP5JKY";   // Read API Key
+unsigned long counterChannelNumber1 = ********;            // Channel ID
+const char * myCounterReadAPIKey1 = " ******** ";   // Read API Key
 
 
 const int FieldNumber1 = 1;  // The field you wish to read
